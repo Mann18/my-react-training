@@ -1,0 +1,48 @@
+.color-changer {
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  color: #333; /* Dark text color */
+  background-color: #f8f9fa; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: auto; /* Center the component horizontally */
+  margin-top: 100px; /* Adjust vertical spacing */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px; /* Larger heading size */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Light border */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+button:hover {
+  background-color: #0056b3;
+}

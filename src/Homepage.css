@@ -1,0 +1,33 @@
+/* Homepage.css */
+.homepage-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.homepage-container h2 {
+  font-size: 24px;
+}
+
+.homepage-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.homepage-container a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.homepage-container button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.homepage-container button:hover {
+  background-color: #b03a2e;
+}

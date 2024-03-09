@@ -1,0 +1,43 @@
+.user-details-container {
+  text-align: center;
+}
+
+.user-form {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.gender-container {
+  margin-bottom: 10px;
+}
+
+.user-table {
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.edit-btn,
+.delete-btn {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: #0056b3;
+}
