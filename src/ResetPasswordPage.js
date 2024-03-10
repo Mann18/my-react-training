@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, Navigate } from "react-router-dom";
-import "./ResetPasswordPage.css"; // Styling file
+import "./ResetPasswordPage.css"; 
 
 class ResetPasswordPage extends Component {
   constructor(props) {
