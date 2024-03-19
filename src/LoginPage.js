@@ -22,8 +22,8 @@ class LoginPage extends Component {
     );
 
     if (user) {
-      user.isLoggedIn = true; // Set isLoggedIn to true for the logged-in user
-      localStorage.setItem("users", JSON.stringify(users)); // Update the users array in localStorage
+      user.isLoggedIn = true; 
+      localStorage.setItem("users", JSON.stringify(users)); 
       this.setState({ isLoggedIn: true });
     } else {
       this.setState({ error: "Invalid email or password" });
