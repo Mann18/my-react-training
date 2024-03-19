@@ -14,6 +14,7 @@ import ColorChanger from "./ColorChanger";
 import UserDetails from "./UserDetails";
 import Calculator from "./Calculator";
 import Todo from "./Todo";
+import NewsPage from "./NewsPage";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="/colourchanger" element={<ColorChanger />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/todo" element={<Todo />} />
+        <Route path="/news" element={<NewsPage />} />
       </Routes>
     </Router>
   );

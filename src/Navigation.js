@@ -36,6 +36,11 @@ const Navigation = () => {
             Todo App
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/news" activeClassName="active">
+            News
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
